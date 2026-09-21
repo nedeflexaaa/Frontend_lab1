@@ -44,6 +44,26 @@
                 <input type="checkbox" id="int_gov" name="interests" value="держслужбовець">
                 <label for="int_gov">Держслужбовець</label><br><br>
             </fieldset>
+
+            <br>
+            <label for="goal">Мета зворотнього зв'язку:</label><br>
+            <select id="goal" name="goal">
+                <option value="співпраця">Співпраця</option>
+                <option value="скарга">Скарга на порушення права власності</option>
+                <option value="пропозиція">Пропозиція</option>
+                <option value="помилка">Наявність помилки</option>
+            </select><br><br>
+
+            <label for="details">Детально:</label><br>
+            <textarea id="details" name="details" rows="5" cols="40" maxlength="300" placeholder="Опишіть ваше питання..."></textarea><br><br>
+
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">Я даю згоду на обробку персональних даних</label><br><br>
+
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Очистити">
+        </form>
+        <br>
     </main>
 </body>
 </html>
