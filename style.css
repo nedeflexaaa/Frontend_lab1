@@ -88,6 +88,7 @@ main {
     transition: background-color var(--transition-speed) ease;
 }
 
+/*buttons*/
 button {
     background-color: var(--primary-color);
     color: #fff;
@@ -120,6 +121,7 @@ button:active {
     color: #fff;
 }
 
+/*TABLES*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -143,4 +145,19 @@ tr:hover {
 
 [data-theme="dark"] tr:hover {
     background-color: rgba(255, 255, 255, 0.05);
+}
+
+/*LISTS*/
+ul li {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
