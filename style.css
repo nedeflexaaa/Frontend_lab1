@@ -101,7 +101,7 @@ button {
 
 button:hover {
     background-color: var(--primary-hover);
-    transform: translateY(-2px); /* Кнопка трохи піднімається */
+    transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
@@ -118,4 +118,29 @@ button:active {
 .theme-btn:hover {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
 }
