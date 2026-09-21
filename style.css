@@ -1,0 +1,11 @@
+/*BASE SETTINGS*/
+:root {
+    --bg-color: #f4f7f6;
+    --text-color: #2c3e50;
+    --card-bg: #ffffff;
+    --primary-color: #3498db;
+    --primary-hover: #2980b9;
+    --border-color: #ddd;
+    --transition-speed: 0.3s;
+}
+
